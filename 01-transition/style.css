@@ -58,3 +58,13 @@ body {
 	opacity: 0.5;
 	height: 1000px;
 }
+
+.tlacitko {
+	box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.5);
+	transition: 0.2s;
+}
+
+.tlacitko:active {
+	box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+	transform: translate(4px, 7px);
+}

@@ -11,7 +11,66 @@ body {
 	height: 250px;
 	border-radius: 50%;
 	background-color: #e74c3c;
+
+	animation-name: pohyb;
+	animation-duration: 5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
 }
+
+@keyframes pohyb {
+	from {
+		background-color: #e74c3c;
+		transform: translate(0, 0)
+	}
+
+	to {
+		background-color: orange;
+		transform: translate(300px, 300px);
+	}
+}  
+
+.block {
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+}
+
+p {
+	animation-name: pohyb;
+	animation-duration: 5s;
+}
+
+@keyframes pohyb {
+	from {
+		transform: translate(0, 0);
+	}
+}
+
+/* @keyframes pohyb {
+	0% {
+		background-color: #e74c3c;
+		transform: translate(0, 0)
+	}
+
+	50% {
+		background-color: yellow;
+		transform: translate (0, 50px);
+	}
+
+	70% {
+		transform: translate(0, 400px);
+	}
+
+	100% {
+		background-color: orange;
+		transform: translate(300px, 300px);
+	} 
+}  */
+
+
+
+
 
 
 /*
