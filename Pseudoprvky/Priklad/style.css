@@ -1,0 +1,19 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+body {
+	font: 16px/1.5 sans-serif;
+}
+
+/*************************************************/
+
+/*
+CSS Selektory:
+
+::first-letter			první písmeno
+::first-line				první řádek
+
+::before
+::after
+*/
